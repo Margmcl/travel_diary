@@ -1,4 +1,6 @@
 TravelDiary::Application.routes.draw do
+  resources :reviews
+
   resources :cities
 
   resources :cds
